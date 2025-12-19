@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechStore</title>
+    <link rel="stylesheet" href="/html_ccs/style/style.css">
+    <!--<style>
+        p {
+            color: green;
+            text-align: center;
+        }
+    </style>-->
+
+    <body>
+        <nav id="navbar">
+            <div style="display: flex; align-items: center;">
+                <img id="logo" src="/html_ccs/images/6106991.jpg" alt="TechStore" style="height: 50px; margin-right: 15px;">
+                <div id="contendorInicio">
+                    <h1 style="margin: 0; font-size: 1.5rem;">TechStore</h1>
+                    <p style="margin: 0; font-size: 0.8rem;">Bienvenido TechStore, realizado por: <br>Andres Rodriguez</p>
+                </div>
+            </div>
+
+            <button class="hamburger-btn" id="hamburgerBtn">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+        </button>
+
+            <ul id=menu>
+                <li><a href=index.html>Inicio</a></li>
+                <li><a href=Crearusuario.html>Crear usuario</a></li>
+                <li><a href=resetpass.html>Olvido contraseña</a></li>
+            </ul>
+        </nav>
+        <div id="contenedorform">
+            <form method="post" action="#">
+                <h1>Inicio de sesion</h1>
+                <!-- <p>
+                    <label>Tipo  de Producto</label>
+                    <input type="radio" name="tipo producto" value="Nuevo" checked="checked"> Nuevo
+                    <input type="radio" name="tipo producto" value="En stock"> En stock
+                </p>-->
+                <label>Usuario:</label>
+                <input type="text" name="Usuario" id="Usuario" size="20">
+                <br>
+                <br>
+                <label>Contraseña:</label>
+                <input type="text" name="Contraseña" id="Contraseña" size="20">
+                <br>
+                <br>
+                <a href=actualiza.html>
+                    <button type="button" class="botonsubmit" ;>Ingresar</button>
+                </a>
+            </form>
+        </div>
+        <script src="/html_ccs/scripts/dom.js"></script>
+    </body>
+</head>
+
+</html>
